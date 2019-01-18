@@ -1,0 +1,27 @@
+{
+  "name": "phidgets-server",
+  "version": "0.0.1",
+  "description": "A Nodejs server that lives on a Phidgets microcontroller and sends sensor data to the SEMA API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untapped-inc/phidgets-server.git"
+  },
+  "keywords": [
+    "phidgets",
+    "rest",
+    "sensor"
+  ],
+  "author": "Joe-Bernick Rameau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/untapped-inc/phidgets-server/issues"
+  },
+  "homepage": "https://github.com/untapped-inc/phidgets-server#readme",
+  "dependencies": {
+    "phidget22": "^2.0.10"
+  }
+}
